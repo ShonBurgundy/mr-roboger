@@ -2,6 +2,7 @@
 //Business
 //takes in user input
   var generateRange = function(num) {
+  var name = $("#user-name").val();
   var displayArray = [] //initializes empty array
   for (var i = 0; i  <= num; i++) { //for loop that increments index by 1 till <= user input
     //want to look at index value
@@ -20,10 +21,15 @@
     //if its multiple digits from about highest value number take priority
      //adds value of index to displayArray
   }
+
+  if (i % 3 === 0) {
+    displayArray.push("Won't you be my neighbor," + "#user-name" + "?")
+  }
   return displayArray; // the result
 }
 
-var name = $("#user-name").val();
+
+
 
 
 

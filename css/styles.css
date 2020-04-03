@@ -16,4 +16,10 @@
   text-align: center;
   border-style: dotted;
   border-color: black;
+  background-color: lightgray;
+}
+
+#output {
+  font-weight: 800;
+  font-size: large;
 }

@@ -4,7 +4,7 @@ By _Sean VanLeeuwen_ 04.03.20
 
 ## Description
 
-
+* This will let you talk to a dope robot.
 
 ## Setup
 
@@ -18,8 +18,7 @@ None
 
 ## GitHub Pages
 
-
-
+* https://shonburgundy.github.io/mr-roboger/
 
 ## Specs
 

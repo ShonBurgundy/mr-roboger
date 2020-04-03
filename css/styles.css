@@ -5,17 +5,11 @@
   text-shadow: 3px 3px 5px white;
   color: black;
   font-family: cursive;
-  margin: 15px;
+  margin: 25px;
   border-style: double;
   background-image: url(https://bit.ly/3dVmm0E);
   background-position: center;
   background-size: 685px 350px;
-}
-
-.well {
-  border-style: dotted;
-  border-color: black;
-  background-color: lightgray;
 }
 
 #output {
@@ -23,6 +17,43 @@
   font-size: large;
 }
 
+body {
+  background-color: lightslategray;
+}
+
 h2 {
   text-align: center;
 }
+
+.well {
+  border-style: dotted;
+  border-color: black;
+  border-width: 3px;
+  padding: 10px;
+  background-image: url(https://bit.ly/2UYSM1Q);
+  background-size: 175px 190px;
+  background-repeat: no-repeat;
+  background-position: 400px 30px;
+}
+
+#user-name {
+  margin-bottom: 15px;
+}
+
+#top, #bottom, #left, #right {
+	background: #060707;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }

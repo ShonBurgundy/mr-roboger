@@ -33,11 +33,11 @@ None
 
 * The program returns "Boop!" for all numbers that contain a 2 (two). 
   * Example Input: 2
-  * Example Output: "Boop!"
+  * Example Output: "Beep!" "Boop!"
 
 * The program returns "Won't you be my neighbor?" for all numbers with 3.
   * Example Input: 3
-  * Example Output: "Won't you be my neighbor?"
+  * Example Output: "Beep!" "Boop!" "Won't you be my neighbor?"
 
 * The program will let the number with higher value take return priority if number contains 2 or more numbers. (with numbers mentioned above)
   * Example Input: 23

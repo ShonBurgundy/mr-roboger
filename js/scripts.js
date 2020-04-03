@@ -4,6 +4,8 @@ var convertSentence = function(num) {
 
   var result = []
 
+  for (var i = 0; i < userInput.length; i++)
+  //console.log();
 }
 
 

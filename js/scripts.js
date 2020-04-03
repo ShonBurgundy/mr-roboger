@@ -1,26 +1,23 @@
-//Business Interface
-// var convertSentence = function(num) {
-//   var mrRobo = [3, 2, 1]
-//   var roboReply = ["Won't you be my neighbor?", "Boop!", "Beep!"]
-//   var numInput =
-  
-//   var result = "";
 
-//   //for (var i = 0; i < mrRobo.length; i++) {
-    
-//   }
-    
-//   return result;
-//};
-
+//takes in user input
   var generateRange = function(num) {
-  var displayArray = []
-  for (var i = 0; i  <= num; i++) {
-  displayArray.push(i);
-  } if ( i === 1) {
-    return  "Beep!"
+  var displayArray = [] //initializes empty array
+  for (var i = 0; i  <= num; i++) { //for loop that increments index by 1 till <= user input
+    //want to look at index value
+    if (i.toString().includes("3")) {
+      //if its a 3 return wont.
+      displayArray.push("Won't you be my neighbor?")
+      //if 2 return boop
+    } else if (i.toString().includes("2")) {
+      displayArray.push("Boop!")
+      //if 1 return beep
+    } else if (i.toString().includes("1")) {
+      displayArray.push("Beep!")
+    }
+    //if its multiple digits from about highest value number take priority
+    displayArray.push(i); //adds value of index to displayArray
   }
-  return displayArray;
+  return displayArray; // the result
 }
 
 $(document).ready(function() {
@@ -28,6 +25,6 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = $("input#userInput").val();
     $("#output").text(generateRange(userInput));
-    console.log(userInput)
+    //console.log(userInput)
   });
 });

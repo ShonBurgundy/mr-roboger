@@ -1,4 +1,5 @@
 
+//Business
 //takes in user input
   var generateRange = function(num) {
   var displayArray = [] //initializes empty array
@@ -21,6 +22,11 @@
   }
   return displayArray; // the result
 }
+
+var name = $("#user-name").val();
+
+
+
 //UI
 $(document).ready(function() {
   $("form#formOne").submit(function(event) {

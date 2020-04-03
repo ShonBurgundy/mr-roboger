@@ -1,8 +1,8 @@
 //Business Interface
 var convertSentence = function(num) {
-  var
+  var mrRobo = [3, 2, 1]
 
-
+  var result = []
 
 }
 
